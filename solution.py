@@ -20,9 +20,8 @@ def welcome_assignment_answers(question):
     elif question == "What layer from the TCP/IP model the protocol DHCP belongs to? - The answer should be a numeric number":
         answer = int(4)
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a numeric number":
-        answer = int(5)
-    
-    else question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
-        answer = "mTLS"
+        answer = int(5)    
+    elif question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
+        answer="mTLS"
         return
 
