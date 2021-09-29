@@ -21,5 +21,6 @@ def welcome_assignment_answers(question):
         answer = int(5)    
     elif question == "In Slack, what is the secret passphrase posted in the #cyberfellows-computernetworking-fall2021 channel posted by a TA?":
         answer = "mTLS"
-        return
+
+    return(answer)
 
